@@ -1,0 +1,428 @@
+
+User@DESKTOP-EPRATVF MINGW64 ~
+$ d:
+bash: d:: command not found
+
+User@DESKTOP-EPRATVF MINGW64 ~
+$ cd d:
+
+User@DESKTOP-EPRATVF MINGW64 /d
+$ cd
+$RECYCLE.BIN/                MateBook_XPro_2018/          OnlineCourse/                System Volume Information/
+FTC/                         Office2013_64_EN_201903.rar  Re-Load2.6_MWTSoft.rar
+
+User@DESKTOP-EPRATVF MINGW64 /d
+$ cd OnlineCourse/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse
+$ ls
+GitHub/  Java/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse
+$ cd Java/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java
+$ ls
+KBTG/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java
+$ cd KBTG/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG
+$ ls
+FUNDA-JAVA/  week1-git/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG
+$ cd week1-git/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git
+$ l
+bash: l: command not found
+s
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git
+$ ls
+Material/  course/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git
+$ cd course/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course
+$ ls
+excercise1/  git-awesome/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course
+$ mkdir excercise2
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course
+$ ls
+excercise1/  excercise2/  git-awesome/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course
+$ cd excercise
+bash: cd: excercise: No such file or directory
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course
+$ cd excercise2
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2
+$ git init
+Initialized empty Git repository in D:/OnlineCourse/Java/KBTG/week1-git/course/excercise2/.git/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ ls
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ ls -la
+total 4
+drwxr-xr-x 1 User 197121 0 Feb 22 07:37 ./
+drwxr-xr-x 1 User 197121 0 Feb 22 07:37 ../
+drwxr-xr-x 1 User 197121 0 Feb 22 07:37 .git/
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ code index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ open .
+bash: open: command not found
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git add .
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git commit -m "initial iphone pricing page"
+[master (root-commit) c379c41] initial iphone pricing page
+ 1 file changed, 3 insertions(+)
+ create mode 100644 index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git switch -c marketing
+Switched to a new branch 'marketing'
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (marketing)
+$ vi index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (marketing)
+$ cat index.html
+<!DOCTYPE html>
+<h1>iPhone Price: $199</h1>
+</html>
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (marketing)
+$ git add index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (marketing)
+$ git status
+On branch marketing
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (marketing)
+$ git commit -m "marketing: iphone price to $199"
+[marketing b27209f] marketing: iphone price to 99
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (marketing)
+$ git status us
+On branch marketing
+nothing to commit, working tree clean
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (marketing)
+$ git branch
+* marketing
+  master
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (marketing)
+$ git switch master
+Switched to branch 'master'
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ cat
+.git/       index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ cat index.html
+<!DOCTYPE html>
+<h1>iPhone Price: $xxx</h1>
+</html>
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ vi index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ cat index.html
+<!DOCTYPE html>
+<h1>iPhone Price: $499</h1>
+</html>
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git add .
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git commit -m "tim-cook: set iphone price to $499"
+[master 7d7f76b] tim-cook: set iphone price to 99
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git log
+commit 7d7f76b4591ab514d3257cfc5a8f6cca8264d76d (HEAD -> master)
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:44:24 2024 +0700
+
+    tim-cook: set iphone price to 99
+
+commit c379c41bf29f5dd7dbebb6ee84a6ec306d703147
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:41:06 2024 +0700
+
+    initial iphone pricing page
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git reset --hard 7d7f76b4591ab514d3257cfc5a8f6cca8264d76d
+HEAD is now at 7d7f76b tim-cook: set iphone price to 99
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ cat index.html
+<!DOCTYPE html>
+<h1>iPhone Price: $499</h1>
+</html>
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git reset --hard c379c41bf29f5dd7dbebb6ee84a6ec306d703147
+HEAD is now at c379c41 initial iphone pricing page
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ ls
+index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ cat index.html
+<!DOCTYPE html>
+<h1>iPhone Price: $xxx</h1>
+</html>
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git log
+commit c379c41bf29f5dd7dbebb6ee84a6ec306d703147 (HEAD -> master)
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:41:06 2024 +0700
+
+    initial iphone pricing page
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git switch -c tim-cook
+Switched to a new branch 'tim-cook'
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (tim-cook)
+$ git branch
+  marketing
+  master
+* tim-cook
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (tim-cook)
+$ vi index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (tim-cook)
+$ git status
+On branch tim-cook
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (tim-cook)
+$ git add .
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (tim-cook)
+$ git commit -m "tim-cook: set iphone price to $499"
+[tim-cook e88344d] tim-cook: set iphone price to 99
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (tim-cook)
+$ git log
+commit e88344de13a7cec0c72eb92eb3203d16008b9a97 (HEAD -> tim-cook)
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:46:19 2024 +0700
+
+    tim-cook: set iphone price to 99
+
+commit c379c41bf29f5dd7dbebb6ee84a6ec306d703147 (master)
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:41:06 2024 +0700
+
+    initial iphone pricing page
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (tim-cook)
+$ git status
+On branch tim-cook
+nothing to commit, working tree clean
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (tim-cook)
+$ git checkout master
+Switched to branch 'master'
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ cat index.html
+<!DOCTYPE html>
+<h1>iPhone Price: $xxx</h1>
+</html>
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git merge marketing
+Updating c379c41..b27209f
+Fast-forward
+ index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ cat index.html
+<!DOCTYPE html>
+<h1>iPhone Price: $199</h1>
+</html>
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git log
+commit b27209f8e41a15647c7c0a2e71d2da7fd9f5f86a (HEAD -> master, marketing)
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:42:45 2024 +0700
+
+    marketing: iphone price to 99
+
+commit c379c41bf29f5dd7dbebb6ee84a6ec306d703147
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:41:06 2024 +0700
+
+    initial iphone pricing page
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git merge tim-cook
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ cat index.html
+<!DOCTYPE html>
+<<<<<<< HEAD
+<h1>iPhone Price: $199</h1>
+=======
+<h1>iPhone Price: $499</h1>
+>>>>>>> tim-cook
+</html>
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ vi index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ vi index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ cat index.html
+<!DOCTYPE html>
+<<<<<<< HEAD
+<h1>iPhone Price: $199</h1>
+=======
+<h1>iPhone Price: $499</h1>
+>>>>>>> tim-cook
+</html>
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ vi index.html
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ git add .
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   index.html
+
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master|MERGING)
+$ git merge --continue
+[master 1d199f2] Merge branch 'tim-cook'
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ git log
+commit 1d199f2d4c9c7b98b63d87eade1993b49a1a4d11 (HEAD -> master)
+Merge: b27209f e88344d
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:48:53 2024 +0700
+
+    Merge branch 'tim-cook'
+
+commit e88344de13a7cec0c72eb92eb3203d16008b9a97 (tim-cook)
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:46:19 2024 +0700
+
+    tim-cook: set iphone price to 99
+
+commit b27209f8e41a15647c7c0a2e71d2da7fd9f5f86a (marketing)
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:42:45 2024 +0700
+
+    marketing: iphone price to 99
+
+commit c379c41bf29f5dd7dbebb6ee84a6ec306d703147
+Author: Veeraset-Hong <hong.veeraset@gmail.com>
+Date:   Thu Feb 22 07:41:06 2024 +0700
+
+    initial iphone pricing page
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$ cat index.html
+<!DOCTYPE html>
+<h1>iPhone Price: $499</h1>
+</html>
+
+User@DESKTOP-EPRATVF MINGW64 /d/OnlineCourse/Java/KBTG/week1-git/course/excercise2 (master)
+$
